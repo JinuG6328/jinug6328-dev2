@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Postdoctoral Research Scientist · <a href="https://www.bnl.gov/compsci/" target="_blank">Computing and Data Sciences</a>, Brookhaven National Laboratory
+  Research Staff · <a href="https://www.bnl.gov/compsci/" target="_blank">Computing and Data Sciences</a>, Brookhaven National Laboratory
 
 profile:
   align: right
