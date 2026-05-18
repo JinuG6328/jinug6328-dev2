@@ -387,9 +387,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-goal-driven-bayesian-experimental-design",
-          title: 'Goal-Driven Bayesian Experimental Design',
-          description: "Optimizing experiments for downstream scientific decisions under uncertainty",
+          section: "News",},{id: "projects-bayesian-optimal-experimental-design",
+          title: 'Bayesian Optimal Experimental Design',
+          description: "Optimizing experiments to reduce parameter uncertainty in complex scientific systems",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/boed/";
             },},{id: "projects-generative-models-for-inverse-problems",
