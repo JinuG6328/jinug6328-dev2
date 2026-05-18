@@ -2,7 +2,7 @@
 layout: page
 title: Generative Models for Inverse Problems
 description: Diffusion models and flow matching for scientific posterior sampling
-importance: 2
+importance: 4
 category: research
 related_publications: true
 ---
