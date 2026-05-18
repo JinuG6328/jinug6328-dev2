@@ -389,27 +389,27 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bayesian-optimal-experimental-design",
           title: 'Bayesian Optimal Experimental Design',
-          description: "Designing informative experiments for complex scientific systems",
+          description: "Designing experiments for inference and decisions under uncertainty",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/boed/";
-            },},{id: "projects-generative-priors-for-high-dimensional-bayesian-experimental-design",
-          title: 'Generative Priors for High-Dimensional Bayesian Experimental Design',
+            },},{id: "projects-generative-priors-for-high-dimensional-boed",
+          title: 'Generative Priors for High-Dimensional BOED',
           description: "Pretrained diffusion models as flexible priors for scalable BOED in non-Gaussian, high-dimensional inverse problems",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/diffusion_boed/";
-            },},{id: "projects-llm-elicited-priors-for-bayesian-experimental-design",
-          title: 'LLM-Elicited Priors for Bayesian Experimental Design',
-          description: "Using large language models as structured prior sources for decision making under uncertainty",
+            },},{id: "projects-llm-elicited-priors-for-model-predictive-control",
+          title: 'LLM-Elicited Priors for Model Predictive Control',
+          description: "Turning domain knowledge in language models into structured priors for decision-making under data scarcity",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/llm_prior/";
-            },},{id: "projects-neural-operator-accelerated-bayesian-experimental-design",
-          title: 'Neural Operator-Accelerated Bayesian Experimental Design',
-          description: "Scalable BOED for PDE-governed systems using neural operators",
+            },},{id: "projects-neural-operator-accelerated-boed",
+          title: 'Neural Operator Accelerated BOED',
+          description: "Making BOED scalable for expensive PDE-governed systems",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/no/";
-            },},{id: "projects-robust-and-decision-focused-bayesian-experimental-design",
-          title: 'Robust and Decision-Focused Bayesian Experimental Design',
-          description: "Beyond information gain — designing experiments for uncertain priors and downstream decisions",
+            },},{id: "projects-robust-and-decision-focused-boed",
+          title: 'Robust and Decision-Focused BOED',
+          description: "Designing experiments that remain useful when priors are imperfect and decisions matter",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/robust/";
             },},{id: "teachings-data-science-fundamentals",
