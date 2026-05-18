@@ -389,7 +389,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bayesian-optimal-experimental-design",
           title: 'Bayesian Optimal Experimental Design',
-          description: "Optimizing experiments to reduce parameter uncertainty in complex scientific systems",
+          description: "Designing informative experiments for complex scientific systems",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/boed/";
             },},{id: "projects-generative-priors-for-high-dimensional-bayesian-experimental-design",
