@@ -1,28 +1,31 @@
 ---
 layout: page
-title: LLM-Elicited Priors for Bayesian Experimental Design
-description: Using large language models as structured prior sources for decision making under uncertainty
+title: LLM-Elicited Priors for Model Predictive Control
+description: Turning domain knowledge in language models into structured priors for decision-making under data scarcity
 importance: 5
 category: research
 related_publications: true
 ---
 
-When observations are scarce or unavailable, specifying a prior distribution
-is the hardest step in Bayesian inference. This project explores using
-**large language models as structured prior sources** — leveraging their
-compressed domain knowledge to propose causal graphs, parameter ranges, and
-plausible regimes that a standard likelihood cannot recover from data alone.
+Bayesian methods need a prior, but in many emerging scientific settings there is
+not enough target-regime data to estimate one reliably. This project asks whether
+large language models can help elicit structured prior knowledge before new
+observations arrive.
 
-We study this question through an **epidemic control** application, where an
-LLM-elicited causal DAG and scenario-conditioned parameter samples serve as
-the prior for model-predictive control over non-pharmaceutical interventions.
-Across conditions, retaining the full LLM sample pool as a scenario ensemble
-outperforms collapsing it into a point density, with disagreement among
-samples acting as a natural measure of regime uncertainty {% cite go2026llmprior %}.
+### What the LLM provides
 
-The broader goal is a prior-to-posterior-to-control pipeline applicable to
-any domain where expert knowledge exists but data from the target regime
-does not yet.
+Rather than a single point estimate, the LLM supplies a **prior ensemble** of
+plausible causal structures, parameter ranges, and scenario-conditioned samples
+that reflect uncertainty across possible regimes.
 
-**Paper**: *Enabling Robust Epidemic Control via LLM-Elicited Causal Discovery*.
-Submitted to the AI for Science Workshop, ICML 2026. *(Under review)*
+### Application
+
+I study this idea in **epidemic control**, a setting where historical data from
+a new pathogen is scarce by definition. LLM-elicited scenarios serve as a prior
+ensemble for model-predictive control of non-pharmaceutical interventions,
+allowing the controller to act before surveillance data accumulates.
+
+### Main message
+
+The goal is not to replace data with an LLM, but to turn available domain
+knowledge into an explicit prior that can later be updated with data.
