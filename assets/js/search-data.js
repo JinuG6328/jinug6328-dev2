@@ -392,11 +392,16 @@ ninja.data = [{
           description: "Optimizing experiments to reduce parameter uncertainty in complex scientific systems",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/boed/";
-            },},{id: "projects-generative-models-for-inverse-problems",
-          title: 'Generative Models for Inverse Problems',
-          description: "Diffusion models and flow matching for scientific posterior sampling",
+            },},{id: "projects-generative-priors-for-high-dimensional-bayesian-experimental-design",
+          title: 'Generative Priors for High-Dimensional Bayesian Experimental Design',
+          description: "Pretrained diffusion models as flexible priors for scalable BOED in non-Gaussian, high-dimensional inverse problems",
           section: "Projects",handler: () => {
-              window.location.href = "/jinug6328-dev2/projects/generative/";
+              window.location.href = "/jinug6328-dev2/projects/diffusion_boed/";
+            },},{id: "projects-llm-elicited-priors-for-bayesian-experimental-design",
+          title: 'LLM-Elicited Priors for Bayesian Experimental Design',
+          description: "Using large language models as structured prior sources for decision making under uncertainty",
+          section: "Projects",handler: () => {
+              window.location.href = "/jinug6328-dev2/projects/llm_prior/";
             },},{id: "projects-neural-operator-accelerated-bayesian-experimental-design",
           title: 'Neural Operator-Accelerated Bayesian Experimental Design',
           description: "Scalable BOED for PDE-governed systems using neural operators",
