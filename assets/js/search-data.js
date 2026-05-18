@@ -397,9 +397,14 @@ ninja.data = [{
           description: "Diffusion models and flow matching for scientific posterior sampling",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/generative/";
-            },},{id: "projects-robust-decision-making-under-uncertainty",
-          title: 'Robust Decision Making Under Uncertainty',
-          description: "CVaR-based and risk-aware optimization for safety-critical scientific systems",
+            },},{id: "projects-neural-operator-accelerated-bayesian-experimental-design",
+          title: 'Neural Operator-Accelerated Bayesian Experimental Design',
+          description: "Scalable BOED for PDE-governed systems using neural operators",
+          section: "Projects",handler: () => {
+              window.location.href = "/jinug6328-dev2/projects/no/";
+            },},{id: "projects-robust-and-decision-focused-bayesian-experimental-design",
+          title: 'Robust and Decision-Focused Bayesian Experimental Design',
+          description: "Beyond information gain — designing experiments for uncertain priors and downstream decisions",
           section: "Projects",handler: () => {
               window.location.href = "/jinug6328-dev2/projects/robust/";
             },},{id: "teachings-data-science-fundamentals",
